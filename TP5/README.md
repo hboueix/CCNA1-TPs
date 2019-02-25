@@ -28,4 +28,10 @@ Pour récupèrer notre fichier sur notre PC, nous allons installer un serveur we
   
 ### 3. Bonus
 
-Le serveux web installé (grâce au package *nginx*), 
+Le serveux web installé (grâce au package *nginx*), nous pouvons vérifier qu'il est accessible en se connectant depuis notre PC :  
+  
+[Nginx](./images/nginx.PNG)    
+  
+Ensuite nous allons modifier le fichier *index.html* pour insèrer un lien permettant de télécharger notre fichier *capt_dora.pcap*.  
+  
+Bon finalement la chose n'est pas si simple donc nous allons finalement abandonner cette manip.
