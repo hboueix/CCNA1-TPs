@@ -143,19 +143,19 @@
             },
             {
                 "filters": {},
-                "link_id": "cafa406c-0082-44e0-bcff-3197550703db",
+                "link_id": "39bcd6fb-1df6-46da-8a67-31578c216294",
                 "nodes": [
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": 41,
-                            "y": 55
+                            "text": "e3",
+                            "x": 69,
+                            "y": 37
                         },
                         "node_id": "0d8421b8-ae96-4130-9445-f61f2441e85e",
-                        "port_number": 2
+                        "port_number": 3
                     },
                     {
                         "adapter_number": 0,
@@ -163,10 +163,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": 26,
-                            "y": -10
+                            "x": -1,
+                            "y": 7
                         },
-                        "node_id": "c007debd-8eda-4b4e-b601-1fc7eee2f832",
+                        "node_id": "f8aff612-648e-420f-b763-6ca307dcbb76",
                         "port_number": 0
                     }
                 ],
@@ -295,40 +295,6 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
-                "console_type": "telnet",
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "client2.tp5.b1-1",
-                    "x": -23,
-                    "y": -25
-                },
-                "name": "client2.tp5.b1-1",
-                "node_id": "c007debd-8eda-4b4e-b601-1fc7eee2f832",
-                "node_type": "virtualbox",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "acpi_shutdown": false,
-                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
-                    "adapters": 2,
-                    "headless": false,
-                    "linked_clone": false,
-                    "ram": 512,
-                    "use_any_adapter": false,
-                    "vmname": "client2.tp5.b1"
-                },
-                "symbol": ":/symbols/vbox_guest.svg",
-                "width": 65,
-                "x": -47,
-                "y": -53,
-                "z": 0
-            },
-            {
-                "compute_id": "local",
                 "console": 5004,
                 "console_type": "telnet",
                 "first_port_name": null,
@@ -380,7 +346,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5003,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -452,6 +418,40 @@
                 "width": 72,
                 "x": -243,
                 "y": -133,
+                "z": 0
+            },
+            {
+                "compute_id": "local",
+                "console": 5005,
+                "console_type": "telnet",
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "dhcp-net2.tp5.b1-1",
+                    "x": -35,
+                    "y": -25
+                },
+                "name": "dhcp-net2.tp5.b1-1",
+                "node_id": "f8aff612-648e-420f-b763-6ca307dcbb76",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 2,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 512,
+                    "use_any_adapter": false,
+                    "vmname": "dhcp-net2.tp5.b1"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "width": 65,
+                "x": -53,
+                "y": -26,
                 "z": 0
             }
         ]
