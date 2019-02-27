@@ -1,0 +1,1 @@
+# TP 6 - Une topologie qui ressemble un peu à quelque chose, enfin ?
