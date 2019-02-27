@@ -2,10 +2,13 @@
 
 ## Configuration de OSPF
 
-* `show ip route` :  
+Nous pouvons vérifier que la configuration c'est bien passé grâce à plusieurs commandes à effectuer sur chaque routeur.  
+  
 ------
   
-**Router 1**
+**Router 1**  
+  
+* `show ip route` :
 ```
 Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
        D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
@@ -29,7 +32,9 @@ O IA    10.6.201.0/24 [110/40] via 10.6.100.6, 00:02:31, Ethernet0/1
 C       10.6.202.0/24 is directly connected, Ethernet0/2
 ```  
   
-**Router 2**
+**Router 2**  
+  
+* `show ip route` :
 ```
 Gateway of last resort is not set
 
